@@ -22,3 +22,13 @@ BASE DATOS server
 3. importar {pool} from 'pg' pool permite las conexiones
 4. pool permite crear la conexion habra que exportarla
 este pool object permite hacer consultas a la base de datos
+
+5. crear rutas para el servidor src/routes/index.ts
+en archivo importar router de express para crear rutas al servidor
+6. importar en src/index.ts el archivo donde estan las rutas
+src/routes/index.ts
+app.use(nombre variable del archivo )
+crear ruta
+
+DEFINIR RUTAS
+en src/controllers/index.controller.ts para luego llamarlas en 
