@@ -30,5 +30,10 @@ src/routes/index.ts
 app.use(nombre variable del archivo )
 crear ruta
 
-DEFINIR RUTAS
-en src/controllers/index.controller.ts para luego llamarlas en 
+DEFINIR queries y acciones
+en src/controllers/index.controller.ts para luego 
+realizar los CRUD methods y definir rutas en src/routes/index.ts
+
+luego para convertir archivos de ts a js 
+ejecutamos npm run build que ejectuta cmd tsc 
+de esta manera puede ser ejectutado con node.
